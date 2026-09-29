@@ -1,0 +1,97 @@
+{
+    "pdb_id": "1X70",
+    "chain_extracted": "A",
+    "ligand_extracted": "715",
+    "status": "success",
+    "raw_pdb_path": "C:\\Users\\gaadi\\OneDrive\\Desktop\\PLACEMENTS\\Computational Drug Discovery\\computational-drug-repurposing\\data\\raw\\1X70.pdb",
+    "clean_pdb_path": "C:\\Users\\gaadi\\OneDrive\\Desktop\\PLACEMENTS\\Computational Drug Discovery\\computational-drug-repurposing\\data\\processed\\1X70_clean.pdb",
+    "ligand_pdb_path": "C:\\Users\\gaadi\\OneDrive\\Desktop\\PLACEMENTS\\Computational Drug Discovery\\computational-drug-repurposing\\data\\processed\\1X70_ligand_715.pdb",
+    "binding_site_center": [
+        41.18414306640625,
+        51.04503631591797,
+        35.6286735534668
+    ],
+    "binding_site_residues": [
+        [
+            "ARG",
+            125
+        ],
+        [
+            "GLU",
+            205
+        ],
+        [
+            "GLU",
+            206
+        ],
+        [
+            "VAL",
+            207
+        ],
+        [
+            "PHE",
+            208
+        ],
+        [
+            "SER",
+            209
+        ],
+        [
+            "PHE",
+            357
+        ],
+        [
+            "ARG",
+            358
+        ],
+        [
+            "TYR",
+            547
+        ],
+        [
+            "SER",
+            630
+        ],
+        [
+            "TYR",
+            631
+        ],
+        [
+            "ALA",
+            654
+        ],
+        [
+            "VAL",
+            656
+        ],
+        [
+            "TRP",
+            659
+        ],
+        [
+            "TYR",
+            662
+        ],
+        [
+            "ASP",
+            663
+        ],
+        [
+            "TYR",
+            666
+        ],
+        [
+            "ASN",
+            710
+        ],
+        [
+            "VAL",
+            711
+        ],
+        [
+            "HIS",
+            740
+        ]
+    ],
+    "receptor_pdbqt_path": "C:\\Users\\gaadi\\OneDrive\\Desktop\\PLACEMENTS\\Computational Drug Discovery\\computational-drug-repurposing\\data\\processed\\1X70_receptor.pdbqt"
+}

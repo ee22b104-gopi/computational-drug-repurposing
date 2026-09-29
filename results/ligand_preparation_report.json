@@ -1,0 +1,11 @@
+{
+    "status": "success",
+    "successful_count": 0,
+    "failed_count": 0,
+    "failures": {},
+    "reference_ligand_pdbqt": {
+        "status": "success",
+        "pdbqt_path": "C:\\Users\\gaadi\\OneDrive\\Desktop\\PLACEMENTS\\Computational Drug Discovery\\computational-drug-repurposing\\data\\processed\\ref_715_A.pdbqt",
+        "error_message": null
+    }
+}

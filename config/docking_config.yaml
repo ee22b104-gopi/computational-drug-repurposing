@@ -1,0 +1,149 @@
+binding_site:
+  catalytic_triad:
+  - 630
+  - 708
+  - 740
+  center_x: 41.184
+  center_y: 51.045
+  center_z: 35.629
+  oxyanion:
+  - 547
+  - 631
+  s1_pocket:
+  - 631
+  - 656
+  - 659
+  - 662
+  - 666
+  - 711
+  s2_extensive:
+  - 207
+  - 209
+  - 357
+  - 358
+  s2_pocket:
+  - 125
+  - 205
+  - 206
+  size_x: 22.0
+  size_y: 22.0
+  size_z: 22.0
+docking:
+  cpu: 4
+  energy_range: 3.0
+  exhaustiveness: 32
+  n_parallel: 1
+  num_modes: 9
+  seed: 42
+  validation_exhaustiveness: 64
+  validation_num_modes: 20
+  vina_executable: bin/vina.exe
+filtering:
+  lipinski:
+    max_hba: 10
+    max_hbd: 5
+    max_logp: 5.0
+    max_mw: 500.0
+  max_rotatable_bonds: 10
+  max_tpsa: 140.0
+library:
+  max_compounds: 300
+  max_mw: 900.0
+  min_mw: 150.0
+  n_decoys: 30
+  positive_controls:
+  - drugbank_id: DB01261
+    name: Sitagliptin
+    pubchem_cid: 4369359
+    smiles: C1CN2C(=NN=C2C(F)(F)F)CN1C(=O)C[C@@H](CC3=CC(=C(C=C3F)F)F)N
+  - drugbank_id: DB04876
+    name: Vildagliptin
+    pubchem_cid: 6918537
+    smiles: N#C[C@@H]1CCCN1C(=O)CNC23CC4CC(C2)CC(O)(C4)C3
+  - drugbank_id: DB06335
+    name: Saxagliptin
+    pubchem_cid: 11243969
+    smiles: N#C[C@H]1[C@@H]2C[C@H]2CN1C(=O)[C@@H](N)C34CC5CC(C3)CC(O)(C5)C4
+  - drugbank_id: DB09028
+    name: Alogliptin
+    pubchem_cid: 11450633
+    smiles: CN1C(=O)C=C(N(C1=O)CC2=CC=CC=C2C#N)N3CCC[C@H](C3)N
+  - drugbank_id: DB08882
+    name: Linagliptin
+    pubchem_cid: 10096344
+    smiles: CC#CCN1C2=C(N=C1N3CCC[C@H](C3)N)N(C(=O)N(C2=O)CC4=NC5=CC=CC=C5C(=N4)C)C
+  - drugbank_id: DB11950
+    name: Teneligliptin
+    pubchem_cid: 11949652
+    smiles: CC1=NN(C(=C1)N2CCN(CC2)[C@H]3C[C@H](NC3)C(=O)N4CCSC4)C5=CC=CC=C5
+  - drugbank_id: DB12417
+    name: Anagliptin
+    pubchem_cid: 44513473
+    smiles: CC1=NN2C=C(C=NC2=C1)C(=O)NCC(C)(C)NCC(=O)N3CCC[C@H]3C#N
+  - drugbank_id: DB15323
+    name: Trelagliptin
+    pubchem_cid: 15983988
+    smiles: CN1C(=O)C=C(N(C1=O)CC2=C(C=CC(=C2)F)C#N)N3CCC[C@H](C3)N
+  - drugbank_id: DB11756
+    name: Omarigliptin
+    pubchem_cid: 46209133
+    smiles: CS(=O)(=O)N1C=C2CN(CC2=N1)[C@@H]3C[C@@H]([C@H](OC3)C4=C(C=CC(=C4)F)F)N
+  - drugbank_id: DB12412
+    name: Gemigliptin
+    pubchem_cid: 11953153
+    smiles: C1CC(CN(C1=O)C[C@H](CC(=O)N2CCC3=C(C2)N=C(N=C3C(F)(F)F)C(F)(F)F)N)(F)F
+  - drugbank_id: DB12625
+    name: Evogliptin
+    pubchem_cid: 25022354
+    smiles: CC(C)(C)OC[C@@H]1C(=O)NCCN1C(=O)C[C@@H](CC2=CC(=C(C=C2F)F)F)N
+  - drugbank_id: DB08382
+    name: Gosogliptin
+    pubchem_cid: 11516136
+    smiles: c1cnc(nc1)N2CCN(CC2)[C@H]3C[C@H](NC3)C(=O)N4CCC(C4)(F)F
+  screening_source: DrugBank approved + PubChem
+paths:
+  data_dir: data
+  docking_dir: results/docking
+  figures_dir: results/figures
+  paper_dir: paper
+  results_dir: results
+  tables_dir: results/tables
+project:
+  name: Structure-Based Virtual Screening for Drug Repurposing
+  target: DPP-4
+  version: 1.0.0
+protein:
+  add_hydrogens: true
+  chain: A
+  citation: Kim et al., J Med Chem, 2005, 48(1):141-151
+  doi: 10.1021/jm0493156
+  ligand_code: '715'
+  pdb_id: 1X70
+  ph: 7.4
+  remove_heterogens: true
+  resolution: 2.1
+  retain_metals: false
+  retain_waters: false
+  secondary_chain: A
+  secondary_ligand_code: LF7
+  secondary_pdb_id: 6B1E
+  source: RCSB PDB
+  uniprot_id: P27487
+robustness:
+  box_sizes:
+  - 18.0
+  - 22.0
+  - 26.0
+  - 30.0
+  exhaustiveness_values:
+  - 8
+  - 16
+  - 32
+  - 64
+  n_compounds_to_test: 20
+  random_seeds:
+  - 42
+  - 137
+  - 256
+  - 314
+  - 500

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Structure-Based Virtual Screening for Drug Repurposing: A Reproducible Computational Workflow"
+type: software
+license: MIT
+repository-code: "https://github.com/ee22b104-gopi/computational-drug-repurposing"
+keywords:
+  - computational drug discovery
+  - virtual screening
+  - molecular docking
+  - AutoDock Vina
+  - drug repurposing
+  - DPP-4
+  - cheminformatics
+  - RDKit
+  - structure-based drug design

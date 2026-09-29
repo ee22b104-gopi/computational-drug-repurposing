@@ -1,0 +1,24 @@
+name: drug-repurposing
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - scipy>=1.10
+  - pandas>=2.0
+  - matplotlib>=3.7
+  - seaborn>=0.12
+  - rdkit>=2023.9
+  - biopython>=1.80
+  - mdanalysis>=2.5
+  - openbabel>=3.1
+  - pyyaml>=6.0
+  - requests>=2.28
+  - tqdm>=4.64
+  - jupyter
+  - pip
+  - pip:
+    - meeko>=0.5
+    - prolif>=2.0
+    - py3Dmol>=2.0

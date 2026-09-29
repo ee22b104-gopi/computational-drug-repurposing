@@ -1,0 +1,27 @@
+# Core scientific stack
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+
+# Cheminformatics
+rdkit>=2023.9
+meeko>=0.5
+
+# Structural biology
+biopython>=1.80
+MDAnalysis>=2.5
+prolif>=2.0
+
+# Visualization
+py3Dmol>=2.0
+
+# Configuration and utilities
+pyyaml>=6.0
+requests>=2.28
+tqdm>=4.64
+
+# Note: AutoDock Vina must be installed separately.
+# Download vina.exe from https://github.com/ccsb-scripps/AutoDock-Vina/releases
+# and place it in your system PATH or the project bin/ directory.
